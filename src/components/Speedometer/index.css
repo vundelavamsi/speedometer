@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.speedometer-bg-container {
+    background-color: black;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: white;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.image {
+    width: 90%;
+}
+
+.speed-heading {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.para {
+    color: #94a3b8;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.acc-button {
+    height: 40px;
+    width: 100px;
+    margin-right: 20px;
+    background-color: #0b69ff;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.break-button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #94a3b8;
+    color: white;
+    background: transparent;
+}
